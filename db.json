@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Luigi",
+      "image": "https://mario.wiki.gallery/images/thumb/7/72/MPSS_Luigi.png/170px-MPSS_Luigi.png",
+      "likes": 0,
+      "id": 9
     }
   ]
 }
