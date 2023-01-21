@@ -1,11 +1,11 @@
 import React from "react";
 import ToyCard from "./ToyCard";
 
-function ToyContainer({toyArray, handleDelete}) {
+function ToyContainer({toyArray, handleDelete, handleLike}) {
 
 
   const toyCards = toyArray.map(toy=>{
-    return <ToyCard key={toy.id} toy={toy} handleDelete={handleDelete}/>
+    return <ToyCard key={toy.id} toy={toy} handleDelete={handleDelete} handleLike={handleLike}/>
   })
 
   return (
